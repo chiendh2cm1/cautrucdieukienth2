@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập cấu trúc điều kiện</title>
+</head>
+<body>
+<h1> What is the " official " name of javascript:</h1>
+<br>
+<p>Trả lời:</p>
+<input type="text" id="result">
+<button type="button" onclick="Official()">submit</button>
+<script>
+    function Official() {
+        let abc = document.getElementById("result").value;
+        if (abc === 'ECMAScript') {
+            alert("Right!")
+        }else {
+            alert("Didn't know?ECMAScript");
+        }
+    }
+</script>
+</body>
+</html>
